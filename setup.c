@@ -45,7 +45,9 @@ void main(){
 
 		// Use switch for the choice you want to perform.
 		switch(choice){
-			case 1: push(element);
+			case 1: printf("Enter the element");
+					scanf("%d",&element);
+					push(element);
 			break; 
 			case 2: pop();
 			break;
