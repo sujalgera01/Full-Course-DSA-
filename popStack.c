@@ -15,7 +15,7 @@ int pop(){
 	}
 	else{
 		element = stack[top];
-		top--
+		top--;
 	}
 	return top;
 }
