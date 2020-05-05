@@ -8,7 +8,7 @@ So look at the code below:
 
 int display(){
 	if(isEmpty()){
-		printf("Stack is Empty!")''
+		printf("Stack is Empty!")
 	}
 	else{
 		for(int i=0;i<=top;i++){
@@ -25,7 +25,7 @@ Just change the loop.
 
 int display(){
 	if(isEmpty()){
-		printf("Stack is Empty!")''
+		printf("Stack is Empty!")
 	}
 	else{
 		for(int i=top;i>0;i--){
