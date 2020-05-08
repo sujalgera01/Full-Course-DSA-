@@ -9,8 +9,8 @@ void dequeue(){
 		printf("Queue is Empty");
 	}
 
-	else if(front == rear){ 
-		element = cqueue[front];
+	else if(front == rear){         // This is the condition that arrives only when there is single element left in cqueue
+		element = cqueue[front];    // and we want to delete that element too.
 		front = rear = -1;
 	}
 
