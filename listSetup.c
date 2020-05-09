@@ -23,7 +23,7 @@ So, let's make a setup int his and we will use this a s a common for all the ope
 struct node{				//Node Creation
 	int data;
 	struct node* link; 
-}
+};
 struct node* root = NULL;		//First node always connect to root node that contains only address
 
 void main(){
