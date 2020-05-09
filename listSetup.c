@@ -38,7 +38,10 @@ void main(){
 		printf("7. Node Swap\n");
 		printf("8. Reverse the list\n");
 		printf("9. Sort\n");
-		printf("10. Quit");
+		printf("10. Quit\n");
+		
+		printf("enter the choice");
+		scanf("%d",&choice);
 
 		switch(choice){
 			case 1: append();				//Fn's that we are going to perform on Single LInked list. 
